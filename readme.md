@@ -29,6 +29,8 @@ To run the backend
 
 - python manage.py runserver
 
+7) go to http://localhost:8000/admin/ to add questions
+
 
 To run the frontend
 
