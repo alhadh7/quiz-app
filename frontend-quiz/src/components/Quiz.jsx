@@ -121,9 +121,7 @@ const Quiz = () => {
       
       getSessionDetails();
       
-      setTimeout(() => {
-        fetchQuestion();
-      }, 5000);
+
     } catch (err) {
       setError('Failed to submit answer.');
     } finally {
